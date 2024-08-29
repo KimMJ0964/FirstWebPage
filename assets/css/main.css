@@ -2386,6 +2386,10 @@
 			margin: 0 !important;
 		}
 
+		#three > .spotlight > .image.flush:hover {
+			filter: brightness(1.2);
+		}
+
 		.image img {
 			display: block;
 		}
@@ -2688,6 +2692,7 @@
 			}
 
 		.spotlight.alt {
+			/*#1e1f23*/
 			background: #1e1f23;
 			color: rgba(255, 255, 255, 0.25);
 			display: -moz-flex;
@@ -2702,7 +2707,7 @@
 			-webkit-align-items: center;
 			-ms-align-items: center;
 			align-items: center;
-			text-align: right;
+			text-align: left;
 		}
 
 			.spotlight.alt > * {
@@ -2716,7 +2721,7 @@
 				flex-grow: 0;
 			}
 
-			.spotlight.alt h3 {
+			.spotlight.alt h2 {
 				color: #FFF;
 			}
 
